@@ -1,0 +1,34 @@
+{
+        // Use IntelliSense to learn about possible attributes.
+        // Hover to view descriptions of existing attributes.
+        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+         "sourceFileMap": {
+        "/build/glibc-2.31": "/usr/src/glibc"
+         },
+        "configurations": [
+        
+
+
+            {
+                "name": "gcc",
+                "type": "cppdbg",
+                "request": "launch",
+                "program": "/home/guazai/bytedance-database-project/middleclass/build/test/lab2/put_get_test",
+                "args": [],
+                "stopAtEntry": false,
+                "cwd": "${fileDirname}",
+                "environment": [],
+                "externalConsole": false,
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
+                "miDebuggerPath": "/usr/bin/gdb"
+            }
+        ]
+}
